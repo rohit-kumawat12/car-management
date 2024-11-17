@@ -55,7 +55,7 @@ const AddCar = () => {
                             value={car.title}
                             required
                         />
-                        <label>Title</label>
+                        <label>Car Name</label>
                     </div>
 
                     <div className="user-box">
@@ -79,7 +79,7 @@ const AddCar = () => {
                             value={car.tags.car_type}
                             required
                         />
-                        <label>Car Type (e.g., Sedan, SUV)</label>
+                        <label>Car Type (e.g., Petrol, Disel)</label>
                     </div>
 
                     <div className="user-box">

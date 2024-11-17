@@ -18,7 +18,7 @@ const Signup = () => {
         e.preventDefault();
         if(crad.spass===crad.confirmPass){
             const lowercaseEmail = crad.semail.toLowerCase();
-            const response = await fetch(`http://localhost:5000/api/auth/newuser`, {
+            const response = await fetch(`https://car-management-u0su.onrender.com/api/auth/newuser`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
